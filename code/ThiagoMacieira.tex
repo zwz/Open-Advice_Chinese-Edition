@@ -1,200 +1,159 @@
-\chapterwithauthor{Thiago Macieira}{The Art of Problem Solving}
+\chapterwithauthor{Thiago Macieira}{解困的艺术 }
 
-\authorbio{Thiago Macieira holds a double degree in Engineering and an MBA, but his
-involvement in Open Source predates those, getting close to 15 years now. An
-active participant in the KDE, Qt and MeeGo communities, he's been a software
-engineer and product manager for Qt, giving presentations and listening to
-people. These days, Thiago lives in Oslo, Norway and when he's not working on
-Qt, he tries (with limited success) to improve his skills at StarCraft 2.}
+\authorbio{蒂亚戈·Macieira持有一个双学位在工程和MBA学位,但他的　　
+参与开源早于那些,接近15年了。一个　　
+积极参与到KDE,Qt和MeeGo社区,他是一个软件　　
+工程师和产品经理Qt,讲演和听　　
+人们。这些天,蒂亚戈·住在挪威奥斯陆,当他不工作　　
+Qt,他试图(在有限的成功)来提高自己的技能在星际争霸2。}
 
-\noindent{}Problems are a routine we are faced with almost every day of our lives and
-solving them is so recurrent we often do not realize we are doing it. They may
-be situations as simple as figuring out the best path to get to a destination or
-how to set the items in the fridge so they fit. Only when we fail to solve them
-immediately do we take notice, since we have to stop and think about them. The
-professional life is no different and solving professional problems becomes part
-of the job description.
+\noindent{}问题是一个常规我们面对几乎每天都被我们的生活和　
+解决他们是如此反复我们通常不会意识到我们正在做它。他们可能　
+某些情况下简单如找出最好的路径到达一个目的地或　
+如何设置冰箱中的食物,所以他们配合。只有当我们无法解决他们　　
+立即做我们的注意,因为我们不得不停下来考虑它们。这个　　
+专业的生活是没有不同和解决专业问题成为　　
+工作描述的。
 
-Problem solving was the topic of my inaugural class when I started my
-engineering degree. In that overcrowded amphitheatre last century, our professor
-explained to roughly 700 freshmen how engineers are problem solvers and our
-professional lives would be moving from one problem to be solved to another.
-Some problems would be small and we would solve them in no time; some others
-would be so big we would need to have a project setting and a team to crack them 
-- but most would fall in-between. He then proceeded to give examples on how the 
-mentality of ``problem solver'' helped him in his professional and personal
-life, including one unexpected live example when the projector failed on us.
+解决问题的讨论的是我的就职典礼当我开始我的　　
+工程学位。在上个世纪,拥挤的圆形剧场,我们的教授　　
+大约700新生解释如何解决问题和我们的工程师　　
+专业的生活将从一个到另一个需要解决的问题。　　
+一些问题将是小,我们将解决他们在任何时间;另外一些人　　
+太大了,我们需要有一个项目设置和一个团队裂纹他们吗　　
+——但是大多数会下跌中间。接着,他举例如何　　
+心态的“问题解决者”帮助他在他的专业和个人　　
+生命,包括一个意想不到的活例子当投影机在我们失败。　　　　
+解决问题的能力是一种技能,我们可以磨练与实践和一些　　
+地面的工作。实践是一个必须获得的东西只有通过经验,通过　
+试验和失败,因此我
+\section*{措辞问题正确}
 
-The ability to solve problems is a skill we can hone with practice and some
-ground work. Practice is something one must acquire only through experience, by
-trial and failure, therefore it is not something that a book could teach.
-Getting started in solving problems, however, is something one can learn. If
-experience is the toolbox we carry when facing new issues, the techniques of
-problem solving are the instructions on how to use the tools in the toolbox.
+这个问题我们试图回答的方向是我们要去当　　
+试图解决这个问题。问错了问题和答案可能　　
+无关紧要的,无效的或者仅仅是完全错误的。因此,要求正确的　　
+问题是至关重要的。此外,问正确的问题是正确的　
+重要的是,因为它提供的线索,我们寻找的是什么。　　　　
+最无用的问题陈述,一所面对的“它不工作”,然而　　
+我们似乎把它太频繁了。这是一个真实的陈述,显然一些　　
+是关闭的。然而,措辞并不提供任何线索去哪儿开始寻找答案。　　　　
+bug跟踪系统通常要求记者描述行为的bug 　　
+采取发起了对这个问题被看见,了解发生了什么事情　　
+(即,症状)和一个描述什么是预期要发生。这个　　
+比较
 
-\section*{Phrasing the question correctly}
+\section*{\textit{鸿沟和conquera}}
 
-The question we are trying to answer is the direction we are going to go when
-trying to solve the problem. Ask the wrong question and the answers may be
-irrelevant, invalid or just plainly wrong. Consequently, asking the correct
-question is paramount. Moreover, asking the correct question correctly is
-important, since it provides clues as to what we are seeking.
+经验在帮助别人试图解决他们的问题在线指示我　　
+在一般人将他们的问题作为整体,不可分割的障碍　　
+块必须处理作为一个整体。因此,一个大问题提出了一个非常　　
+困难应该回答的问题在它的全部。
 
-The most useless problem statement that one can face is ``it doesn’t work'', yet
-we seem to get it far too often. It is a true statement, as evidently something
-is off. Nevertheless, the phrasing does not provide any clue as to where to
-start looking for answers.
+事实上,绝大多数的这些问题可以进一步分解成　　
+较小的问题,每一种都是容易处理和确定他们　　
+是问题的根源,更不用说存在的可能性　　
+多个来源的症状经历。重复此操作只是一个　　
+几次会产生更小的问题需要解决,因此, 　　
+更快的解决方案。然而,更多的分歧,我们被迫使的更多的　　
+我们需要知道关于操作系统的内部结构在手里。在　　
+现实中,问题解决者只会分解到他的知识　　
+主题将许可证,然后从那里工作的问题。
 
-Bug-tracking systems often request that the bug reporter describe the actions
-taken that led up to the problem being seen, the description of what happened
-(that is, the symptom) and a description of what was expected to happen. The
-comparison between the symptom and the expected behavior is a good source for
-the question to be asked: why did this happen, why did this other behavior not
-happen? While this is not the only way for creating the question, applying this
-technique to problems may certainly help.
+对于软件开发,使用的子系统都是不错的暗示　　
+在哪里打破这个问题。例如,如果这个问题涉及到一个TCP / IP 　　
+传输的数据,两个可能的分歧是发送方和接收方:它　
+是无用的寻找这个问题在收件人的结束如果发送方不是吗　　
+传输数据正确。同样,一个图形应用程序,不是　
+显示数据,它从数据库获取有一个清晰的划分:它　　
+将会是一个好主意来验证数据库访问工作过吗　　
+调查为什么它没有正确地显示。另外,可以养活　　
+虚拟数据显示功能,然后验证数据确实会说正确地显示。
 
-Phrasing the problem and the question correctly, in all its details, is also a
-way to further describe the problem statement. First, we must realize that the problem very likely does not lie where we are expecting it to be -- if it did, we would have probably solved the problem by now. Explaining all the details of the problem at hand provides the help-givers with more information to work with. In addition, even if counter-intuitively, the act of describing the problem in its entirety often leads to finding the solution, so much so that many development groups require ``stuck'' developers to perform this task, either by discussing it with a colleague or talking to a ``naïve'' entity, like a rubber duck or Mr. Potato-Head.
+甚至当分组都不清楚,把问题仍然可以帮助摆脱　　
+在这个问题上的光。事实上,几乎每一个部门都是有用的,因为它减少了　　
+数量的代码检查,包括它的复杂性办理。在　　
+一个极端的,只需把代码在两个和搜索问题在一个　　
+可以使用的一半。这种技术叫做二等分,建议如果　　
+部门创建从子系统和接口尚未透露
+解决方法 
 
-In addition, one must return to the question every now and then, so as to not
-lose sight of what the goal is. While executing activities to solve the problem,
-care must be taken not to concentrate exclusively on a particular piece of the
-problem, forgetting the overall objective. For the same reason, it is necessary
-to re-examine the initial question when a possible solution is found, to ensure
-it does solve the entire problem. In turn, this also shows the necessity of
-asking the right question, stating the complete problem: without the full
-question, the solution may be equally incomplete.
+最终产品的一系列适当的部门是一个小的,独立的　　
+示例显示问题。在这个阶段,通常的三种选择之一　　
+右:问题可以被识别和定位;代码实际上是正确的　　
+和预期是错的;或一个bug被发现在底层代码。　　
+一个好处是,它还生产过程要发送一个测试用例中　　
+bug报告,应该变成一个bug的原因。
 
-\section*{\textit{Divide et conquera}}
+\section*{边界条件}
 
-Experience in helping others trying to solve their problems online has shown me
-that in general people treat their issues as monolithic, indivisible stumbling
-blocks that must be dealt with as a whole. As such, a large problem poses a very
-difficult question to be answered in its entirety.
+一个问题类似于分裂问题在于的边界条件。在　　
+数学和物理、边界条件的一组值该地区的变量,确定有效解决的方程。　　
+对于软件,边界条件的设置必须满足的条件正确地执行的代码。通常,边界条件远离　　
+简单:不像数学和物理,这些变量在软件系统　　
+太多的,这意味着为他们的边界条件也同样各式各样的。
 
-In truth, the vast majority of those issues can be further broken down into
-smaller problems, each of which are easier to deal with and determine if they
-are the root cause of the problem, not to mention the possibility of there being
-multiple sources for the symptom experienced. Repeating this operation just a
-couple of times will yield much smaller problems to tackle and, therefore,
-quicker solutions. However, the more divisions we are forced to make, the more
-we are required to know about the operating internals of the system at hand. In
-reality, the problem solver will only break down as far as his knowledge of the
-subject will permit and then work on the issue from there.
+在软件系统中,边界条件通常被称为“先决条件”,这是有条件的,必须满足一定的行动之前　　
+是被允许的。验证前提条件已经被满足是很好的锻炼　　
+“寻找一个答案,因为违反了先决条件是绝对的　　
+这一问题需要解决——即使它不是原来的根源　　
+问题。先决条件的例子可以很简单,比如一个指针的事实　　
+必须是有效的,才能的引用,或者一个对象一定没有　　
+处理才可以使用。复杂的先决条件是非常可能的软件的使用记录。
 
-For software development, the subsystems being used are often good hints at
-where to break up the problem. For example, if the problem involves a TCP/IP
-transmission of data, two possible divisions are the sender and the receiver: it
-is of no use to look for the problem on the receiver’s end if the sender is not
-transmitting the data properly. Similarly, a graphical application that is not
-showing the data that it is fetching from a database has a clear division: it
-would be a good idea to verify that the database access works before
-investigating why it is not displayed properly. Alternatively, one could feed
-dummy data to the display functions and then verify that said data does get
-displayed properly. 
+另一些有趣的边界条件的特点是,有趣的是,什么是不允许的:未定义行为。这种类型的　　
+边界条件是非常常见的在处理规范,其中尝试很明确的在软件应该如何表现。
+一个很好的例子是编译器和语言定义的。严格地说,一个null废弃　　
+指针是一个未定义的行为:最常见的结果是一个处理异常被困和程序终止,
+但其他行为也许可,包括工作完美。
 
-Even when the groupings are not clear, dividing the problem can still help shed
-light on the issue. In fact, almost every division is helpful, as it reduces the
-amount of code to be inspected, and with it the complexity to be dealt with. At
-an extreme, simply dividing the code in two and searching for the problem in one
-half may be of use. This technique, called bisecting, is recommended if the
-divisions created from the subsystems and interfaces have not yet revealed a
-solution. 
+\section*{合适的工具做合适的事}
 
-The end-product of a sequence of proper divisions is a small, self-contained
-example showing the problem. At this stage, one of three options is usually
-right: the problem can be identified and located; the code is actually correct
-and the expectations were wrong; or a bug was found on the lower layer of code.
-An advantage of the process is that it also produces a test-case to be sent in a
-bug report, should a bug turn out to be the cause.
+如果工程师是问题解决者,工程师的座右铭是“使用正确的工具　　
+为正确的工作”。这似乎是显而易见的,因为没有人想用一把锤子　　
+解决电子问题。尽管如此,情况下使用错误的工具是　　
+相当常见,常常由于无知的存在一个更好的工具。
 
-\section*{Boundary conditions}
+其中一些工具是实用的软件开发,像编译器和调试器。
+无法使用这些工具是不可原谅的: 　　
+专业人士发现自己在一个环境与新的或未知的工具,这样的当开关位置或工作,
+必须把一些时间来学习他们, 熟悉他们的功能和局限性。
+例如,如果一个程序崩溃,能够确定事故的位置以及　　
+被访问的变量在这部分的代码可能会帮助确定根原因,从而指出了解决方案。
 
-An issue similar to dividing the problem is that of the boundary conditions. In
-mathematics and physics, boundary conditions are the set of values for the
-variables that determine the region of validity of the equations being solved.
-For software, boundary conditions are the set of conditions that must be met for
-the code to perform properly. Usually, the boundary conditions are far from
-simple: unlike mathematics and physics, the variables in software systems are
-far too many, which means that the boundary conditions for them are equally
-manyfold.
+其他一些工具是更高级的,属于一个利基,不是非常广泛已知的,
+或者只能遵循成本或条件无法满足的工程师。
+但他们可以在帮助阐明问题非常有用。这样的工具可能是静态的代码检查工具、
+线程跳棋、内存调试器, 硬件事件伐木工,等。例如,
+开发硬件通常包含一个方法通过一个特殊的接口控制它像JTAG或转储所有指令执行和处理器状态,
+但是这需要有特殊的硬件和　　工具,并没有现成可用的和通常成本超过体积, 
+消费设备。一个不同的例子是valgrind工具套件,它包括线程跳棋和内存调试器和免费是很容易获得的, 
+但属于先进,利基工具和在学校不教。
 
-In software systems, the boundary conditions are often referred to as
-``preconditions'', which are conditions that must be met before a certain action
-is allowed. Verifying that the preconditions have been met is a good exercise in
-the searching for an answer, for a violation of the preconditions is definitely
-a problem that needs solving -- even if it is not the root cause of the original
-problem. Examples of preconditions can be as simple as the fact that a pointer
-must be valid before it can be dereferenced or that an object must not have been
-disposed of before it can be used. Complex preconditions are very likely to be
-documented for the software being used.
+知道一个工具箱中的内容是一个强大的知识。
+使用一个专门的工具来搜索一个问题可能将产生一个结果更快,
+是它积极的,确认问题,或负面的,从而搜索在其他地方。
+此外,重要的是要知道如何使用这些工具,它证明花时间阅读文档,
+在训练或简单的尝试与已知的问题了解如何进行。
 
-Another interesting group of boundary conditions is characterized,
-interestingly, by what is not permitted: the undefined behavior. This type of
-boundary conditions is very common when dealing with specifications, which try
-to be very explicit in how software should behave. A good example of this are
-the compilers and language definitions. Strictly speaking, dereferencing a null
-pointer is an undefined behavior: the most common consequence is a processor
-exception being trapped and the program terminating, but other behaviors are
-permitted too, including working perfectly.
+\section*{ 结论}
 
-\section*{The right tool for the right job}
+解决问题是一个艺术提供给所有。像其他艺术,有些人可能有这样一种技能,
+它可能看起来他们与生俱来的能力。但在现实中,
+有足够的经验和实践,解决问题成为一个无意识活动。
 
-If engineers are problem-solvers, the engineer’s motto is ``use the right tool
-for the right job''. It may seem obvious, as no one is expected to use a hammer
-to solve an electronic problem. Nonetheless, cases of using the wrong tool are
-quite common, often due to ignorance of the existence of a better tool.
+当面对一个问题,不容易解决,一个人应该坐下来　
+把一个清晰的查看整个问题。我们的问题是什么? 　　
+我们能短语问题,我们需要一个答案?一旦我们知道我们寻找,
+我们可以开始寻找,它可能位于。我们可以把它细分为更小的、
+更加可管理的部分?什么是最好的工具被使用对于每个块吗?我们已经证实,
+我们正在使用的功能和服务正确吗?
 
-Some of these tools are the bread-and-butter of software development, like the
-compiler and the debugger. Inability to use these tools is unforgivable: the
-professional who finds himself in an environment with new or unknown tools, such
-as when switching positions or jobs, must dedicate some time to learning them,
-becoming familiar with their functionalities and limitations. For example, if a
-program crashes, being able to determine the location of the crash as well as
-variables being accessed in that section of the code may help determine the root
-cause and thus point to the solution.
+A在解决很多问题,我们开始看到模式。
+它将变得更容易检测微妙的暗示的症状和直接搜索向实际的问题。
+一位有经验的问题解决者可能甚至没有意识到这一行动正在发生。
+这是一个迹象表明经验和行为设定了在这么好,
+没有有意识的努力需要访问这些技能。
 
-Some other tools are more advanced, belong to a niche, are not very widely
-known, or are available only under cost or conditions which cannot be met by the
-engineer. Yet they can be incredibly useful in helping elucidate problems. Such
-tools may be static code checker tools, thread checkers, memory debuggers,
-hardware event loggers, etc. For instance, development hardware often contains a
-way to control it via a special interface like JTAG or dump all instructions
-executed and processor state, but this requires having special hardware and
-tools, which are not readily available and usually cost more than volume,
-consumer devices. A different example is the valgrind suite of tools, which
-include thread checkers and memory debuggers and is readily available for free,
-but are part of the advanced, niche tools and are not taught at schools.
-
-Knowing the contents of one’s toolbox is a powerful knowledge. Using a
-specialized tool to search for a problem will likely yield a result quicker, be
-it positive, confirming the problem, or negative, which in turn leads the search
-elsewhere. Moreover, it is important to know how to use these tools, which
-justifies spending time reading the documentation, in training or simply
-experimenting with them with known problems to understand how to proceed.
-
-\section*{Conclusion}
-
-Solving problems is an art available to all. Like other arts, some people may
-have such a skill that it may seem that they were born with the ability. But in
-reality, with enough experience and practice, solving problems becomes an
-unconscious activity.
-
-When faced with a problem that is not easy to solve, one should sit back and
-take a clear look at the entirety of the problem. What is the problem we have?
-Can we phrase the question that we need an answer for? Once we know what we are
-looking for, we can start searching for where it may be located. Can we break it
-down into smaller, more manageable pieces? What are the best tools to be used
-for each piece? Have we verified that we are using the functionalities and
-services correctly?
-
-After solving many problems, we start to see patterns. It will become easier to
-detect subtle hints from the symptoms and direct the searching towards the
-actual problem. An experienced problem-solver may not even realize this action
-is taking place. That is an indication that the experience and behavior has set
-in so well that no conscious effort is required to access those skills.
-
-Yet there are always some problems in life that will be hard to solve, ranging
-from professional to existential, philosophical or even those which are caused
-by pure curiosity. Then again, it is the challenge that drives us, the need to
-understand more. Life would be pretty tedious otherwise.
+但总有一些生活上的问题,很难解决,范围从专业存在,
+哲学甚至那些因素所造成的通过纯粹的好奇心。
+再一次,这是挑战,促使我们的需要了解更多。生活将会非常乏味否则。
