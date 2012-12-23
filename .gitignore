@@ -3,6 +3,9 @@ Open-Advice.pdf
 Open-Advice.epub
 Open-Advice.mobi
 
+# mac chahe
+.DS_Store
+
 # projects and editors
 *.tdo
 *.toc
