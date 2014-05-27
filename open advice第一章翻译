@@ -1,0 +1,72 @@
+1. Code First
+Armijn Hemel 
+ 
+  Armijn Hemel has been using free software since 1994, when his
+brother came home with a stack of ?oppies with an early version
+of FreeBSD. A year later the switch to Linux was made and he has
+been using Unix(-like) systems ever since then, both at home, during
+his studies at Utrecht University and at work. Since 2005, Armijn
+has been part of the core team of gpl-violations.org and has his own
+consultancy (Tjaldur Software Governance Solutions) specialized in
+detection and resolution of GPL license violations.
+  自从1994年以来Armijn Hemel就一直使用免费的软件，那年他的兄弟带着一堆有着FreeBSD的早期版本的软盘回家。一年之后，开始转向Linux，从那以后他一直使用Unix系统，不论是在家里，还是当他在Utrecht University学习和工作的时候。从2005年开始，Armijn Hemel成为了反GPL组织中核心小组的一员，还有了他自己的顾问公司（Tjaldur Software Governance Solutions）专门从事发现和决断GPL许可证的侵权行为。
+  
+  Back in 1999 I was just getting started in FLOSS activism. I had 
+already been using Linux and FreeBSD for a number of years then, 
+but I was merely a user and I wanted to actually contribute some
+thing back. The best way I thought for contributing back was to
+write code. I could not ?nd any existing project I would be comfort
+able working on, so I decided to start my own project. In hindsight
+the reason why I did that was probably a mixture of various things.
+One factor was insecurity whether or not my code was actually good
+enough to be accepted in an existing project (I was, and still am, no
+brilliant programmer) and with your own project that is not much
+of an issue. The second reason is probably youthful arrogance.
+  早在1999年，我就开始了我的FLOSS行动。那是我已经使用了Linux和FreeBSD有数年了，但是我只是一个用户，我想真正得为他们做出一些贡献。我认为最好贡献就是编写代码。我找不到任何可以让我舒服地为其工作的现有项目。所以我决定开始我自己的项目。事后回想起来我这样做的原因可能是因为这是一个很多东西的混合。有一个因素是不安全的，那就是我的代码是否足够好，能被现有的项目所接受（我以前是，现在仍然是，一个不够出色的程序员），不过用于自己的项目是没有太大的问题的。第二个理由可能就是青春时候的傲慢。
+    
+  My idea was to make a presentation program, which would fancy
+more of the advanced (or, annoying, if you wish) features of Power
+Point. Back in that time there was no OpenOffce.org and choices
+were pretty limited to LaTeX and Magicpoint, which are more tai-
+lored to delivering text content, than to showing whirly effects. I
+wanted to make the program cross platform and back then I thought
+Java would be the best choice for this. The idea was to make a pre-
+sentation program, written in Java, which would have support for all
+those whirly effects. I made up my mind and started the project.
+  我的想法是做一个看起来更先进的演示程序（这里的whirly effects不理解）如果你想的话，或者是烦人的）关于简报的特点。早在没有 OpenOffice.org的那个时候，相对于LaTeX 和 Magicpoint那些为客户提供更加有针对性的文字内容，能更好的展现“回旋效果”（这里的的应用的选择是相当有限的。我像是程序跨平台运行，那是我以为Java会是最好的选择。当时的想法是在Java上做一个演示程序，可以支持这些所有的回旋效果。我下定了决心，然后开始了项目。
+  
+  Infrastructure-wise everything was there: there was a mailing list,
+there was a website, there was source code control (CVS). But there
+was no actual code for people to work on. The only things I had
+were some ideas of what I wanted to do, an itch to scratch and the
+right buzzwords. I actually wanted people to join in creating this
+program and make it a truly collaborative project.
+  所有的不错的基础设计就是：有一个邮件列表，有一个网站，有一个控制的源代码（CVS）。但是没有人们正在从事的现存代码，我拥有的唯一的事情就是我有一些我想要怎么做的想法，用正确的时髦话来说，就是皮毛而已。我真心希望人们可以参与这个程序的创造，使它变成一个真正的合作项目。
+   
+  I started making designs (with some newly acquired UML knowl-
+edge) and sent them around. Nothing happened. I tried to get people
+involved, but collaboratively working on a design is very hard (be-
+sides, it is probably not the best way to create software in the ?rst
+place). After a while I gave up and the project silently died, without
+ever producing a single line of code. Every month I was reminded
+by the mailing list software that the project once existed, so I asked
+it to be taken offline.
+  我于是开始做设计（用一些新获得的UML知识）然后发送给他们。什么都没有发生。我试图让人们参与进来，但是设计一个合作工作是非常困难的（但这可能不是创造一个软件的最快方法）。没过多久，我放弃了，这个项目也默默地死去了，没有产生一个单一的代码行。每个月我都会因为邮件软件的列表想起这个项目曾经存在过，所以我要求它处于脱机状态。
+   
+  I learned a very valuable, but somewhat painful, lesson: when you
+announce something and when you want people to get involved in
+your project, at least make sure there is some code available. It does
+not have to be all ?nished, it is OK if it is rough (in the beginning
+that is), but at least show that there is a basis for people to work with
+and improve upon. Otherwise your project will go where many many
+projects, including my own failed project, have gone: into oblivion.
+  我学到了非常宝贵的东西，但是有一些是痛苦的课程：当你宣布一些事情，然后希望人们参与进来，至少确保有一些代码有用。它也不需要是完成品，即使是粗糙的也是可以的（在这个项目最开始的时候），但是至少展现出有可供人们一起工作和改进的基础。相反的，你的项目会变成许多的项目，包括我自己失败的项目，已经不要的，和被遗忘的。
+  
+ I eventually found my niche to help advance FLOSS, by making
+sure that the legal underpinnings of FLOSS are tight through the gpl-
+violations.org project. In retrospect I have never used, nor missed,
+the whirly effects in presentation programs and found them to be
+increasingly irritating and distracting too much from the content. I
+am happily using LaTeX beamer and occasionally (and less happily)
+OpenOffce.org/LibreOffce to make presentations.
+  我终于找到了我合适的方法，用以改进FLOSS，确保使FLOSS通过严密的法律基础来通过反GPL项目。回想起来，我从来没有使用过，也不错过在演示程序中的回旋效果，发现它们变得越来越刺激并且从原本的内容中分散出了太多的东西。我很高兴的使用 LaTeX投影仪，偶尔不开心的为OpenOffce.org/LibreOffce做专题介绍。
