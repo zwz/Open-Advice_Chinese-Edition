@@ -52,7 +52,11 @@ edits made by a participant? Did you know you can link to a specific version
 of a page? Did you know you can export a page to PDF, or create custom
 hardcover books from Wikipedia content, to be sent to your home?
 
-但是让我们先把编辑器放在一边。维基百科的界面仍然相当复杂，而且许多有用的特色很难发现。
+但是让我们先把编辑器放在一边。维基百科的界面仍然相当复杂，而且许多有用的特色很难发现。但是让我们先把编辑
+器放在一边。维基百科的界面仍然相当复杂，而且许多有用的特色很难发现。你知道维基百科有一个集成的版本控制系
+统，然后你可以看到所有之前版本的页面吗？你知道你可以看到所有的由参与者做的编辑内容的清单吗？ 你知道你可以
+链接到一个特定的版本一个页面吗？你知道你可以把页面导出为PDF，或者将维基百科的内容做成定制的 
+，然后送到你的家吗？
 
 \section*{The Implementation Model}
 
@@ -62,6 +66,10 @@ Few stick around and explore what tools the interface offers. For example,
 Wikipedia is routinely criticized about its quality and reliability. Many of
 these unexplored, almost hidden tools could prove useful to readers to help them
 assess the reliability of information.
+
+大多数读者都是通过搜索引擎找到维基百科的。据统计数据显示，一旦他们找到了他们想要的信息，他们几乎不会再花时间在
+维基百科上。几乎不停留和探索界面上提供了什么样的工具。例如， 维基百科经常被批评它的其质量和可靠性。许多 
+这些没被发现的，几乎隐藏的工具可能对读者有用，帮助他们 评估信息的可靠性。
 
 Wikipedia and its sister projects (like Wikisource and Wikimedia Commons)
 are powered by a wiki engine called MediaWiki
@@ -78,6 +86,13 @@ software is implemented in the code and data structures. Only rarely does this
 implementation model match the ``user model'', i.e., the way the user imagines
 things to work.
 
+维基百科及其姐妹项目（如维基文库和维基共享资源）一个被称为mediawiki的wiki引擎已启动 
+（技术支持来自维基媒体基金会;所有这些令人困惑的单独的的名称是可不适用的）。长期以来，MediaWiki的开发，主要是 
+由软件开发者领导。 MediaWiki的社区有一个强大的开发基础; 事实上，这个社区几乎完全由开发者组成。只是最近有设计
+人员受聘于维基基金会加入这个社区，他们是维基基金会在设计方面的依靠。几乎没有志愿的设计师在这个社区。这样就
+造成了应用程序的构建和“设计”完全由开发人员完成。因此，界面自然采取了遵照“实施模型”的方式，这一方式通过软件中
+的代码和数据结构来实现。只有很少的人做与“实施模型”相匹配的“用户模型”，即按照用户想象的方式工作。
+
 It would be unfair to say that developers do not care about users. The purpose
 of creating software (apart from the sheer pleasure of learning stuff,
 writing code and solving problems) is to release it so it can be used. This is
@@ -89,7 +104,14 @@ its team, for a reason, and this reason was rarely money. As a consequence,
 developers of this kind of software would be in an ideal position to know what
 the user wants.
 
+说开发者不关心用户这是不公平的。编写软件的目的就是将它发布，使他被使用（除了单纯为学习的快感，为解决问题而写代码）。
+这在自由和开源软件的世界尤其如此，其中大多数开发者无私奉献他们的的时间和专业知识。有人可能会争辩说， 许多开发人员也是
+这些软件的用户，尤其是在自由和开源软件的世界。归根结底，他们创造了它，或加入 
+它的团队，是有某种原因的，而这个原因基本与钱无关。因此，这种软件的开发者会设身处地的考虑用户的需求。
+
 But let's face it: if you are reading this, you are not your regular user.
+
+但是，让我们面对现实：如果你在阅读这篇文章，你就不是一个常规的用户。
 
 \section*{The Developer Point Of View}
 
@@ -100,6 +122,10 @@ know each and every feature of the application you created. You know where to
 find everything. If something with the interface feels a little odd, you may
 unconsciously discard it because you know it is a side-effect of how you
 implemented such or such a feature.
+
+如果你是一个开发者，你很难站在用户的角度看问题。因为你熟悉代码和软件运行的机制，这使你会从一个特殊的角度来看待
+软件的功能和界面。你知道每一次你创建的功能。你知道到哪去找一切。如果界面上的某些东西使你感到有点奇怪，你会无意
+识的放弃它，因为你知道它实施这样一个功能的不良作用。
 
 Let us say you are creating an application that stores data in tabular form
 (possibly in a database). When the time comes to show this data to the user, you
