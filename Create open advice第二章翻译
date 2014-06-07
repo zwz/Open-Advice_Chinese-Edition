@@ -1,0 +1,84 @@
+2. Everyone Else Might Be Wrong, But Probably Not
+ 每个人都可能是错的，但也可能不是
+  Evan Prodromou is the founder of Wikitravel, StatusNet and the Open Source social network Identi.ca. He
+has participated in Open Source software for 15 years as a developer, documentation writer, and occasional 
+bomb-throwing crank. He lives in Montreal, Quebec.
+  Evan Prodromou是维客旅游、StatusNet和开源社交网络Identi.ca的创始人。作为开发者、作家和有着奇妙想法的人，
+他已经参加了开源软件15年。他生活在Montreal, Quebec。
+  The most important characteristic of the Open Source project founder, in the ﬁrst weeks or months before
+releasing their software into the world, is mule-headed persistence in the face of overwhelming factual 
+evidence. If your software is so important, why has someone else not written it already? Maybe it is not
+even possible. Maybe nobody else wants what you are making. Maybe you are not good enough to make it. Maybe 
+someone else already did, and you are just not good enough at Googling to ﬁnd it. 
+  在向世界发布他们软件的前几个周或前几个月中，开源软件创始人的最重要的特点是在事实证据面前据理力争。如果那
+你的软件很重要，那为什么别人没有写？也许是不可能的。也许没人去做你想做的。也许你还不足以完成它。也许有的人
+已经做了，只是你没有在谷歌上找到它。
+  Keeping the faith through that long, dark night is hard; only the most pig-headed, opinionated, stubborn
+people make it through. And we get to exercise all our most strongly-held programmer’s opin- ions. What is
+the best programming language to use? Application architecture? Coding standards? Icon colors? Software 
+license? Ver- sion control system? If you are the only one who works on (or knows about!) the project, you 
+get to decide, unilaterally.   
+  黑夜是困难的，需要长久地保持信念，只有最顽固、最固执的人才能渡过。我们要锻炼我们所有程序员的意念。最好使
+用的编程语言是什么？Application architecture? Coding standards? Icon colors? Software license?如果你是唯一
+一个运作或者知道这个项目的，不截图单方面的做决定。
+  When you eventually launch, though, that essential characteristic of stubborn determination and strong
+opinion becomes a detriment, not a beneﬁt. Once you have launched, you will need exactly the opposite skill
+to make compromises to make your software more use- ful to other people. And a lot of those compromises 
+will feel really wrong.
+  当你最终发行，顽强的毅力和强烈的观点这些本质特征会成为坏处，而不是好处。一旦你发行，你将需要完全相反的方
+式去妥协让你的软件对其他人更有用。尽管其中有很多妥协感觉起来的确是错的。
+  It is hard to take input from “outsiders” (e.g., people who are not you). First, because they focus on 
+such trivial, unimportant things – your variable naming convention, say, or the placement of particular
+buttons. And second, because they are invariably wrong – after all, if what you have done is not the right 
+way to do it, you would not have done it that way in the ﬁrst place. If your way was not the right way, why 
+would your code be popular? 
+  很难被局外人（如不是你们的人）所接受。首先，因为他们专注于一些琐碎的、不重要的事——你使用的变量名，你说的
+话，或者特定的按键布局。第二，因为他们总是错的。毕竟，如果你不是用正确的方法做的，你就不会第一个完成。如果
+你的方式是错的，那为什么你的代码受到欢迎？
+  But “wrong” is relative. If making a “wrong” choice makes your software more accessible for end users,
+or for downstream developers, or for administrators or packagers, is that not really right? 
+  但错是相对的。如果一个错误的选择让你的软件更能被最终用户接受，或者下游的开发商，或者管理和包装的人员，是
+不是也是正确的呢？
+  And the nature of these kind of comments and contributions is usually negative. Community feedback is 
+primarily reactive, which means it is primarily critical. When was the last time you ﬁled a bug report to
+say, “I really like the organization of the hashtable.c module.” or “Great job on laying out that sub-sub-
+sub-menu.”? People give feedback because they do not like the way things work right now with your software.
+They also might not be diplomatic in delivering that news. 
+  这种评论和贡献的性质通常是消极的。社区的反馈是主要的反应，这意味着它是关键的。当你最后一次修补一个漏洞时，
+报告说，“我真的很喜欢hashtable.c module.的组织”。人们给予反馈，因为他们现在不喜欢用你的软件来工作。他们也可
+能不提供这些信息。
+  It is hard to respond to this kind of feedback positively. Some- times, we ﬂame posters on our development 
+mailing lists, or close bug reports with a sneer and a WONTFIX. Worse, we withdraw into our cocoon, ignoring
+outside suggestions or feedback, cuddling up with the comfortable code that ﬁts our preconceptions and biases perfectly.
+  很难去回复这种积极反馈。有时候，我们删掉在我们开发邮件列表的信息，或者冷笑一声，关掉错误报告。更糟的事，
+  我们撤回我们的建议，忽视外来的建议和反馈，重新拿着这些舒服的、与我们成见和偏见完美地相符的代码。
+    If your software is just for you, you can keep the codebase and surrounding infrastructure as a personal 
+playground. But if you want your software to be used, to mean something to other people, to (maybe) change 
+the world, then you are going to need to build up a thriving, organic community of users, core committers, 
+admins and add-on developers. People need to feel like they own the software, in the same way that you do.
+  如果你的软件仅仅是自己用的，你可以保存这些代码库和周边的设施就像一个私人的操场。但如果你想让你的软件被使用，
+意味着把东西给别人，这也许会改变世界，然后你会需要为用户、核心开发者、管理员和插件开发员建立一个蓬勃发展的
+社区。人们需要感觉他们像是在用自己的软件，就像那你做的那样。
+  It is hard to remember that each one of those dissenting voices is the tiny corner of the wedge. Imagine 
+all the people who hear about your software and never bother to try it. Those who download it but never 
+install it. Those who install it, get stuck, and silently give up.And those who do want to give you feedback, 
+but can not ﬁnd your bug-report system, developers mailing list, IRC channel or personal email address.
+Given the barriers to getting a message through, there are likely about 100 people who want to see change 
+for every one person to get the message through. So listening to those voices, when they do reach you, is critical. 
+
+  很难记住那些在小角落反对的声音。想象所有听说你的软件和从不费心的人去尝试使用它。那些下载它但从不安装它的。
+那些安装，结果卡住了，最后放弃的。和那些想给你反馈，但不能找到你的错误报告系统、开发者邮件列表、IRC频道或者
+个人电子邮件地址。假如让信息传递出去的话，大概会有100个人想知道那些让信息传递出去的人会有什么样的改变。所以
+听到那些声音，当他们到达你那里，这是至关重要的。
+  The project leader is responsible for maintaining the vision and purpose of the software. We can not 
+vacillate, swinging back and forth based on this or that email from random users. And if there is a core 
+principle at stake, then, of course, it is important to hold that core steady. No one else but the project 
+leader can do that.
+  项目组长负责维持软件的视觉和目的。我们不能动摇来回摆动，让这些从任意的使用者来的邮件作为基础。如果有个核
+心原则，保持这个核心稳定是很重要的。除了项目组长没有人能做那个。
+    But we have to think: are there non-core issues that can make your software more accessible or usable?
+Ultimately the measure of our work is in how we reach people, how our software is used, and what it is used 
+for. How much does our personal idea about what is “right” really matter to the project and to the community? How much is just what the leader likes, personally? If those non-core issues exist, reduce the friction, respond to the demand, and make the changes. It is going to make the project better for everyone.
+   但是我们不得不考虑：是否有核心问题能让你的软件更容易使用？最终我们工作的重点是让我们软件更人性化，我们的软
+件的使用，和软件是干什么用的。我们自己对这个事物的想法会对这个项目和集体有多大的影响？多少才是因为领导个人的
+喜欢？如果那些非核心问题存在，就应该减少摩擦回应要求然后做出改变。这个项目才会对所有人来说变得更好。
