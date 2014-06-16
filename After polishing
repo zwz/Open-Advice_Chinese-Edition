@@ -1,0 +1,318 @@
+\chapterwithauthor{Frank Karlitschek}{Underestimating the Value of a Free Software Business Model}
+  {法兰克.卡洛兹切克}{他低估了自由软件这种运营模式的价值}
+  
+  \authorbio{Frank Karlitschek was born in 1973 in Reutlingen, Germany and started to
+  法兰克.卡洛兹切克于1973年出生在德国的罗伊特林根，并且在十一岁的时候
+  write software at the age of 11. He studied ComputerScience at the University
+  他就开始写软件了。早前在杜平根大学读计算机科学专业后来
+  
+  of T\"ubingen and became involved in free software and Internet technologies in
+  在十九世纪九十年代中期开始接触自由软件和因特网技术。
+  the mid-1990s. In 2001, he started to contribute to KDE by launching KDE-Look.org,
+  2001年的时候他开始为K桌面环境系统做贡献，那时他创建了一个名为“KDE-Look.org”的
+  an artwork community site which later became the openDesktop.org network. Frank
+  社区站用于讨论有关桌面主题的各种艺术，这个社区后来发展成为openDesktop.org 网。
+  started several Open Source projects and initiatives like the Social Desktop,
+  法兰克还发起了一些开源项目并提出了某些倡议例如社会化桌面，
+  the Open Collaboration Services, the Open-PC and ownCloud. In 2007 he started a
+  开源合作服务，开源个人电脑以及私有云。2007年的时候，法兰克开了一家
+  company called hive01 which offers services and products around Open Source and
+  名为hive01的公司，专门提供开源项目和网络技术相关的产品和服务。
+  Internet technologies.
+  Today Frank is a board member and Vice President of the KDE e.V. and a regular
+  speaker at international conferences.}
+  如今法兰克已经是KDE协会的董事会成员兼副主席了，并且会定期在很多国际会议中发言。
+  \section*{Introduction}
+  {前言}
+  Ten years ago, I underestimated the value of a business model. Free software and
+  十年前，我低估了这种商业模式的价值。自由软件
+  a business model? They do not belong together. At least, that is what I thought
+  和商业模式？它们之间是没有关系的。至少在我2001年我是那么想的
+  when I started contributing to KDE in 2001. Free Software is about fun and not
+  那时我刚刚参加KDE的开发工作。自由软件建立在乐趣之上，而不是钱！
+  money. Right? Free software people want a world where everybody can write
+  至于版权？自由软件的参与者只是希望每个人都可以编写软件，
+  software and huge companies, like Microsoft or Google, are superfluous. Software
+  而像微软和谷歌那样的大公司根本就是多余的。
+  should be free and anyone who wants to develop software should be able to do so
+  软件天生就是自由的，每一个想改编软件的人都应该有改编它的权利，即使那个人只是
+  -- even hobby developers. So earning money is not important. Right? Today, I
+  业余的编程爱好者。所以赚钱是不重要的！对于版权，
+  hold a different opinion. Sometimes developers should be remunerated for their
+  我如今已经有了不同的看法。有时候贡献者也应该因自己的付出而获得报酬。
+  efforts.  
+  
+  \section*{The Free Software motivation}
+  {自由软件的驱动力}
+  Most Free Software developers have two basic motivations to work on Free
+  大多数的自由软件贡献者努力地写代码都是有着两个基本的动力。
+  Software. The first motivation is the fun factor. It is a fantastic experience
+  第一个当然就是他们觉得这件事很有意思。
+  to work together with very talented people from all over the world and create
+  和一群来自世界各地的天才一起完成一件事并且能创造伟大的技术，这无疑是一场不可思议的经历。
+  great technology. KDE, for example, is one of the most welcoming communities I
+  例如，KDE就是我所知道的最受欢迎的社区团体之一。
+  know. It is so much fun to work with thousands of contributors from all over the
+  和几千个来自世界各地的人一起创造给数以百万计的人用的软件，
+  world to create software which will be used by millions. Basically, everyone is
+  这种感觉实在是太棒了！
+  an expert in one or more areas and we collaborate to create a shared vision. For
+  通常来说，每个人都有一个或几个自己十分擅长的领域所以我们会合力创造一个共享的版本。
+  me it is always a blast to meet other KDE contributors, exchange ideas or work
+  对于我来说，不管是在线上的会合还是在现实生活中的某个会议或重大事件中，我们这些KDE的
+  on our software whether we meet online or in real life at one of the many conferences or events. 
+  贡献者每一次的意见交流或是一起工作，总是一次爆炸性的成长。
+  And it is also about friendship. Over the years I have made many good friends in KDE.
+  它也会给你带来友情。在过去的这些年里，我在KDE社区里结识了许多好朋友。
+  
+  But KDE contributors are not motivated only by fun to join KDE.
+  但是KDE的贡献者们不仅仅是因为有趣才加入此项目的。
+  It is also the idea that all of us can make the world a better place with our contributions.
+  另一个原因就是我们秉承这样一种思想，每一个人都可以通过自己的努力而让这个世界变得更好。
+  Free Software is essential if you care about access to technology and IT for developing countries.
+  对于发展中国家来说，如果你关心的是进入真正的技术领域和IT行业，自由软件是必不可少的。
+  It enables poor people to participate in the information age without buying expensive licenses for proprietary software.
+  它让那些穷人不会因为支付不起昂贵的私有软件许可证费用而被这个信息化的时代抛弃。
+  It is essential for people who care about privacy and security, 
+  而对那些十分在意隐私和安全的人这东西也是极好的，
+  because Free Software is the only way to see exactly what your computer is doing with your private data.
+  因为只有自由软件才能让你清楚地看到你的电脑究竟对你的私密数据做了什么。
+  Free Software is important for a healthy IT eco-system,
+  在一个有生命力的IT生态系统中，自由软件也是扮演着一个十分重要的角色的，
+  because it enables everybody to build on the work of others and really innovate.
+  因为它让每个人都可以在他人的工作基础上拓展新的内容而且此举也能做到真正的创新。
+  Without Free Software it would not have been possible for Google or Facebook to start their businesses.
+  没有自由软件这种模式，Google或是Facebook也都是不可能启动他们的项目的（而且还走到如今这个地步！）。
+  It is not possible to innovate and create the next disruptive technology
+  如果只是依赖那些私有软件，不能对软件有一个整体的认识，
+  if you depend on proprietary software and do not have full access to all parts of the software.
+  当然是不可能做到真正的创新的，更别提创造下一代的颠覆性的技术了
+  
+  Free Software is also essential for education, because everybody can see all the internals of the software and study how it works. 
+  对于教学来说，自由软件也是很有必要的，因为每个人都能看见软件内部的所有东西，这样就能学到一个软件到底是如何工作的。
+  That is how Free Software helps to make the world a better place and why I contribute to Free Software projects such as KDE.
+  这就是自由软件帮助人们把这个世界变好的方式，也是我之所以会想对类似于KDE这样的自由软件项目贡献自己的一份绵薄之力的原因。
+  
+  \section*{The need for an ecosystem}
+  
+  These are the main reasons why I want to see Free Software, and especially the free desktop, become mainstream.
+  以上这些也就是我想看到自由软件尤其是自由桌面成为主流的原因。
+   To make this happen, we need a lot more contributors than we have today.
+  而为了实现这一理想，就以如今我们这些贡献者的力量是远远不够的，还需要更多的人。
+   By contributors I mean people who write the core frameworks, the desktop, the great applications.
+  说到贡献者，我是指那些能写内核框架，桌面环境或各种有用的应用软件的人。
+   We need people who work on usability, artwork, promotion and many other important areas. 
+   我们很需要一些能在使用情况，美工设计，维护升级等诸多领域做出贡献的人。
+   KDE is already a really big community with thousands of members.
+   KDE已经是一个具有数以千计的成员的大社区了。
+    But we need more people to help to compete with proprietary software in a big way.
+  但是我们仍然需要更多的人来帮助我们与私有软件进行正面抗衡。
+   The Free Software community is tiny compared to the proprietary software world.
+   毕竟自由软件的社区跟私有软件的世界比起来实在是太渺小了。
+   On the one hand this is not a problem, because the distributed software development model of the Free
+  但从另一方面考虑这也不是什么大问题，因为自由软件的这种分散式软件发展模式远比
+  Software world is much more efficient than the closed source way of writing software.
+  那种闭源写软件的方式高效多了。
+   One big advantage is, for example, the ability to re-use code better.
+  例如说，一个巨大的优势就是，自由软件代码的重用性好的多。
+  But even with these advantages we need many more contributors than we have
+  但是如果我们真得想征服桌面和移动市场，即使我们有着这么多的优势
+  today, if we really want to conquer the desktop and mobile markets.
+  却还是需要大量的贡献者加入我们才够。
+  We also need companies to help us bring our work to the mass market. In a
+  我们也需要靠一些公司来把我们的产品带入广阔的市场。
+  nutshell, we need a big and healthy ecosystem that enables people to work on
+  概括说来，我们需要一个大而健全的体系来保证那些为自由软件工作的人们能够谋生。
+  Free Software for a living.
+  
+  \section*{The current situation}
+  {目前的境况}
+  I started contributing to KDE over 10 years ago and since then I have seen countless highly motivated and talented people join KDE.
+  我参与KDE的开发有十多年了，在此期间我看到过无数的人才满怀壮志的加入KDE。
+  This is really cool.
+  这真得屌爆了！
+  The problem is that I also saw a lot of experienced contributors dropping out of KDE.
+  问题就在于还是有很多经验丰富的贡献者退出了。
+  That is really sad. Sometimes it is just the normal way of the world.
+  这的确很让人难过，但有时也不得不承认这个世界就是这有样。
+  Priorities shift and people concentrate on other stuff. 
+  他们不可能总将贡献代码作为最重要的事，总要去处理生活中其他的很多事。
+  The problem is that many also drop out because of money.
+  可悲的是很多人还是因为钱的问题而退出了。
+  At some point people graduate and want to move out of their dorm rooms.
+  终有一天有些人毕业了要从宿舍里搬出来了，
+  Later some people want to get married and have kids.
+  不久之后他们还会想要结婚生子，
+  At this point people have to find jobs.
+  在这种情况下他们不得不去找一份工作来养家糊口。
+  There are some companies in the KDE ecosystem that offer KDE-related jobs.
+  当然在KDE的运作体系下是有一些公司可以提供跟KDE相关的工作的，
+  But these are only a fraction of the available IT jobs.
+  但是那只占极少的一部分。
+  So, a lot of senior KDE contributors have to work for companies where they work on proprietary software, unrelated to KDE and Free Software. 
+  所以，KDE里大量的高级贡献者不得不在其他的公司里干着跟私有软件打交道的活，跟KDE或是自由软件都没丝毫关系。
+  Sooner or later most of these developers drop out of KDE.
+  这样下去，KDE的人迟早会走光的。
+  I underestimated this factor 10 years ago, but I think it is a problem for KDE in the long term,
+  十年前我觉得这没什么，但我现在认为从长远来看这对KDE来说是个大问题，
+  because we lose our most experienced people to proprietary software companies.
+  因为我们把最有经验的人才都输给那些私有软件的公司了。
+  \section*{My dream world}
+  {我理想的世界}
+  In my dream world people can pay their rent by working on Free Software and
+  they can do it in a way which does not conflict with our values.
+  在我的构想中，人们是可以通过为自由软件工作而获得报酬的，至少可以缴纳房子的租金，而且这样的工作也根本不会与我们的价值理念相冲突。
+  KDE contributors should have all the time they need to contribute to KDE and Free Software in general.
+  在通常情况下，KDE的贡献者也应该有充足的时间来完成那些KDE和FS所需要的工作。
+  They should earn money by helping KDE. Their hobbies should become their jobs. 
+  通过帮助KDE发展他们是应该获得报酬的，若他们真心热爱这份事业，那便不应眼看着他们因为收入的问题而不得不退出。
+  This would make KDE grow in a big way, because it would be fun to contribute and also provide good long-term job prospects.
+  若能做到如此，KDE必然能以一种迅猛的势头发展起来，因为这样不仅让这些工作很有趣，而且可以让参与进来的人获得一个长期且美好的工作前景。
+  
+  \section*{What are the options?}
+  
+  So what are the options? What can we do to make this happen?
+  那么选择又是什么呢？我们如何让它实现呢？
+  Are there ways for developers to pay their rent while working on Free Software? 
+  对开发者来说有办法能让人们心甘情愿的通过付费来得到自由软件的服务呢？
+  I want to list a few ideas here that I collected during several discussions with Free Software contributors.
+  我想列一些曾经与那些自由软件的元老们交谈时所得到的想法。
+  Some of them are probably controversial, because they introduce completely new ideas into the Free Software world.
+  他们中的一部分人可能是有争议的，因为他们在自由软件界中引入了全新的想法。
+  But I think it is essential for us to think beyond our current world if we want to be successful with our
+  但我认为，如果我们想要成功完成我们的光荣使命，那么要有超乎常人的创新这是至关重要的。
+  mission.  
+  
+  \paragraph*{Sponsored development}
+  
+  Today, more and more companies appreciate the importance of Free Software and
+  如今，越来越多的公司意识到自由软件的重要性，开始致力于自由软件的项目，
+  contribute to Free Software projects, or even release their own completely Free
+  甚至将发布了自己的自由软件项目。
+  Software projects. This is an opportunity for Free Software developers. We
+  这是对自由软件开发者来说是一个契机。
+  should talk to more companies and convince them to work with the Free Software
+  我们应该告诉更多的公司，说服他们来加入自由软件这个大家庭。
+  world. 
+  
+  \paragraph*{End-user donations}
+  
+  There should be an easy way for end-users to donate money directly to
+  应该要有一个简单的方法来让用户直接把钱赠给开发者，
+  developers. If a user of a popular application wants to support the developer
+  如果一个流行应用的使用者想要支持那位开发者并且促进应用的长远发展，
+  and promote the further development of the application, donating money should be
+  捐钱只需轻轻敲击一下鼠标。
+  just one mouse click away. The donation system can be built into the application
+  捐赠系统应该构建在应用中，这能使它尽可能为寄钱提供方便。
+  to make it as easy as possible to send money.
+  
+  \paragraph*{Bounties}
+  
+  The idea behind bounties is that one or more users of an application can pay for
+  赏金背后的想法是一个或多个应用程序的用户可以通过付费来得到一个特定的功能。
+  the development of a specific feature. A user can list his feature request on a
+  用户可以在网站上列出他对功能的要求，
+  website and say how much he is willing to pay for the feature. Other users who
+  以及他愿意为他的这些功能付多少酬金。
+  also like the same feature may add some money to the feature request. At some
+  其他用户如果也想要相同的功能可以增加些赏金。
+  point the developer starts to develop the feature and collects the money from
+  这样，开发人员就可以开始开发这些功能然后用户那边得到酬金。
+  the users. This bounty feature is not easy to implement. People already tried to
+  这种赏金的功能并不容易实现。
+  set up a system like this and failed. But I think it can work if we do it
+  人们已经试图建立这样一个系统,但都以失败告终。可我认为只要我们做对了，它就可以运转。
+  right. 
+  
+  \paragraph*{Support}
+  
+  The idea is that the developer of an application sells direct support to the
+  其想法是这样的，应用程序的开发者直接将支持服务卖给该程序的用户。
+  users of the application. For example, the users of an application buy support
+  也就是说，只需每个月5美元，用户就买到了这个程序的支持服务
+  for, let us say, \$5 a month and get the right to call the developer directly at
+  以及取得了在一天中的指定时间可以直接联系开发者权利。
+  specified times of the day, users may post questions to a specific email
+  用户可以将问题发送到特定邮箱的地址，
+  address, or the developer can even help the users via a remote desktop. I
+  或者开发人员甚至可以通过远程桌面帮助用户。
+  realize many developers will not like the idea that users call them and ask
+  我意识到许多开发者不会喜欢使用者打电话给他然后问他一些奇怪的问题，
+  strange questions, but if this means that they earn enough with the support
+  但是如果这意味着他们能够从支持系统中赚足够的钱以至于可以把他们的应用作为全职工作，那么它一定是一件好事。
+  system to work full-time on their applications, then it must be a good thing.
+  
+  \paragraph*{Supporters}
+  
+  This is the idea that end-users can become supporters of an application. The
+  这想法是应用程序的最终用户可以成为该程序的支持者。
+  ``Become a Supporter'' button would be directly built into the application. The
+  而“成为支持者”按钮将直接构建到应用程序中。
+  user then becomes a supporter for a monthly payment of, for example \$5, which
+  例如用户每月支付5美元直接给开发人员,然后就有可能变成该程序的支持者。
+  goes directly to the developer. All the supporters are listed in the About
+  所有的支持者的照片和真实姓名将会以应用程序的对话框的形式列出来。
+  Dialog of the application together with their photos and real names. Once a year
+  当然，每年所有的支持者也会被邀请去参加一个和开发人员一起的特别的支持者聚会。
+  all supporters are also invited to a special supporter party together with the
+  developers. It is possible that a developer may be able to work full-time on an
+  如果有足够多的用户成为了支持者，那么开发者把他们的应用作为全职工作就可能实现。
+  application, if enough users become supporters.
+  
+  \paragraph*{Affiliate programs}
+  
+  Some applications have integrated web services and some of these web services
+  一些应用程序已经集成了web服务和一些web服务从属项目。
+  run affiliate programs. For example, a media player can be integrated in the
+  例如,可以在一个媒体播放器上集成亚马逊的mp3 MusicStore，
+  Amazon mp3 MusicStore or a PDF reader can be integrated in an ebook store.
+  或者可以在一个电子书商店上集成PDF阅读器。
+  Every time a user buys content via the application, the developer gets some
+  每次用户通过应用程序的渠道购买的话,开发人员就可以得到一些钱。
+  money.
+  
+  \paragraph*{App store for application binaries}
+  
+  Many people do not know that it is possible to sell binaries of Free Software.
+  许多人并不知道它是可以出售二进制文件的自由软件。
+  The GPL only requires that you also provide the source code. So, it is perfectly
+  而GPL也只要求你提供源代码。因此,
+  legal and OK to sell nicely packaged binaries of our software. In fact,
+  销售包装良好的二进制文件的软件是相当合法的并且是允许的。事实上,
+  companies such as Red Hat and Novell already sell our software in their commercial 
+  像Red Hat和Novell等公司已经在他们的商业发行中销售我们的软件发行版了,
+  distributions but the developers do not benefit from it directly. 
+  而开发人员并不直接从中受益。
+  All the revenue goes to the companies and nothing to the developers. 
+  所有的收入都给了公司而开发人员却没得到分毫。
+  So we could enable the Free Software developers to sell nicely packaged, optimized and
+  所以我们可以让自由软件的开发者出售包装良好,并进行了优化测试的应用程序给最终用户。
+  tested applications to the end-user. This might work especially well on Mac or
+  这可能在Mac或是windows上运行效果特别好。
+  Windows. I am sure a lot of users would pay \$3 for an Amarok Windows binary, or
+  如果所有的钱直接给开发人员，我相信很多用户愿意支付3美元给Amarok Windows binary或digiKam Mac。
+  digiKam for Mac, if all the money went directly to the developer.
+  
+  \section*{Conclusion}
+  
+  Most of these ideas are not easy to implement. They require changes to our
+ +然而，这些想法中的大部分并不那么容易实现。
+  software, changes to our ways of working and changes among our users who must be
+ +其实现需要软件改革,需要我们工作方式的改变,需要鼓励我们的软件使用者们帮助一同寻找软件发展的可能，
+ +以此表达其对软件的价值认可。
+  encouraged to show they value the software we create by helping to fund its
+  development.
+  
+  However, the potential benefits are huge. If we can secure revenue streams for
+ +然而,其中潜藏着巨大的好处。
+  our software we can retain our best contributors and maybe attract new ones. Our
+ +如果我们能从软件中获得收入来源，我们将能留住我们最好的贡献者,或许还可以吸引新的参与者。
+  users will get a better experience with faster software development, the ability
+ +随着更快的软件开发速度，我们的用户将得到更好的的体验经历,
+  to directly influence development through bounties and better support.
+ -
+ +而凭借赏金以及更好的支持，其能力发展将受到直接的影响。
+  Free Software is no longer just a hobby to be done in your spare time. It is
+ +自由软件将不再仅仅是一个在业余时间去享受的爱好。是时候该使它成为一个业务了！
+  time to make it a business.
