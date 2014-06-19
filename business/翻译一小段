@@ -19,26 +19,28 @@
   relatively late in life to pursue a degree in Computer Science (having failed
   to become rich and famous as a musician) and was expecting to be quite
   a bit older than my peers when I graduated. So I thought it would be good
- +我已决定在人生的较晚时段去攻读计算机科学的学位（为此已经不再可能再变成富翁，也不可能作为音乐家而闻名遐迩），
-  并且开始期望在我毕业时比我同龄人更显老一些。
+ +我已决定在人生的较晚时段去攻读计算机科学的学位（为此已经不再可能再变成富翁而又闻名遐迩的音乐家了），
+  并且很可能在我毕业时会比我同龄人更显老一些。
   to teach myself programming, which I was not getting much of at
   school, to become more attractive to future employers, despite my age.
- +然而在学校我学不到太多的编程知识，可不管我现在的年龄如何，
-  为了更积极地朝未来软件工程师的目标前进，我觉得自学编程是最适合我走的路。  
+ +所以我认为自学那些我不能再学校学到很多的编程知识是不错的选择,
+  尽管我的年龄会很大，但当我成为未来的雇主时会更有魅力,  
   After some forays into various smaller communities I eventually found my way
   into KDE and started working on the email application. Thanks to
- +经过多次涉足各种各样的小社区，我最终发现了进入KDE的方法，并开始致力于电子邮件应用系统。  
+ +经过多次涉足各种各样的小社区，我最终用自己的方式成功进入了KDE，并开始致力于电子邮件应用系统。  
   the extremely helpful and technically brilliant group of people I met there I
   was able to learn quickly and contribute meaningfully to the code base, getting
   sucked more and more into both the social circle and the fascinating technical
   problem space of personal information management.
- +感谢在KDE遇到的那群给予我非常帮助并且技术一流的人，我能够学得更快了，而且对代码基础有了更多有意义的贡献，
-  也汲取了越来越多的社会圈和迷人的科学个人信息管理空间问题方面的知识。
+ +感谢在KDE遇到的那群技术一流并且给予我非常多帮助人，我能够学得更效率了，而且对代码库有了更多有意义的贡献，
+  并且开始越来越多的涉足社交圈和那迷人的个人信息管理上的技术问题圈。
   
   When KDAB, a company full of KDE people, asked me whether I wanted to help out
   with some commercial work that was being done, as a student job, I was of
   course thrilled to be able to combine making a living with my hobby of hacking
   on KDE software. Over the years I then witnessed the adoption of KDE's personal
+ +当一家满是KDE成员的名叫KDAB的公司询问我是否愿意帮忙解决一些即将完工的商业工作，并以此为学生兼职工作时
+  我对能将生计和我KDE软件黑客的爱好联系在一起而激动不已。
   information management frameworks and applications by the public sector,
   particularly in Germany, first hand and saw KDAB's business in this area grow.
   As I transitioned into more coordinative roles it eventually became part of my
