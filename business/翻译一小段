@@ -55,13 +55,19 @@
   cooperation with other Free Software businesses, namely g10code, the
   maintainers of GNUPG and cryptography specialists, and Intevation, a consultancy focused
   entirely on Free Software and its strategic challenges and opportunities. Especially
+  有一点需要做下声明：这本书提到的很多的工程任务是和其他的自由软件企业一起合作完成的，
+  例如：GNUPG的维护人员和密码专家组成的g10code，还有专注于自由软件及其战略挑战与机遇的咨询公司Intevation。
   Bernhard Reiter, one of Intevation's founders, was instrumental to the selling and
   running of many of these projects and whatever morsels of wisdom this text might contain
   are likely products of his analysis and my many conversations with him over the years.
+  尤其是Bernhard Reiter，Intevation的创始人之一，对这些工程的销售和运行，还有本文任何需要小智慧的点点滴滴，
+  比如他精准的产品分析以及这么多年来与我的许多交谈，都具有十分重大的意义。
   
   So if Bernhard and I could travel back in time and share insights with our younger, more
   naïve selves, what would those insights be? Well, it turns out they all start with the
   letter 'P'.
+  因而，如果Bernhard和我能够及时旅行归来，然后和我们的年轻人分享一些人生感悟，更加天真的本性，
+  那么，我想谈的思考究竟会是什么呢？哦，我想说：“原来万物都是从字母‘P’开始的。”
   
   \section*{People}
   
