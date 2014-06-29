@@ -1,0 +1,94 @@
+Enter file contents here
+\authorbio{For the past 10 years, Runa Bhattacharjee has been translating and working on
+localizing numerous Open Source projects - ranging from Desktop interfaces to
+Operating System tools and lots of things in between. She strongly believes that
+upstream repositories are the best places to submit any form of changes. She also
+holds a professional portfolio specializing in Localization, at Red Hat. Runa
+translates and maintains translations for Bengali (Indian version), but is
+always happy to help anyone wanting to get started with localization.}
+在过去的十年中，Runa Bhattacharjee 一直在翻译和工作在本地化的许多开源项目-从桌面接口到操作系统以及相关的很多事情
+她强烈地认为最好的提交任何形式的地方是上游库。她拥有在red hat获得的专业于局域学的官方文凭。
+Runa翻译并且持续为Bangali翻译，但是她一直乐于帮助任何想要开始局域学的人
+
+\section*{Introduction}
+
+Burning the midnight oil has been a favorite form of rebellion by young people
+all over the world. Whether to read a book with a torchlight under the covers or
+to watch late night TV reruns or (amongst other things) to hang around on an IRC
+channel and tinkering around with an itchy problem with a favorite open source
+project. 
+熬夜一直是世界上所有年轻人最喜欢的反叛形式。不管是藏在被单下用手电筒读书，看深夜电视的重播，(还有其他的东西）在聊天室闲聊
+并且对最喜欢的开源项目的棘手问题进行改善。
+\section*{How it all
+ began}
+
+That is how it all began for me. Let me first write a bit about myself. When I
+got introduced to the local Linux Users Group in my city, I was in between jobs
+and studying for a masters degree. Very soon I was a contributor to a few
+localization projects and started translating (mostly) desktop interfaces. We
+used a few customized editors with integrated writing methods and fonts. The
+rendering engines had not matured well enough to display the script with zero
+errors on the interfaces, nonetheless we kept on translating. My focus was on
+the workflow that I had created for myself. I used to get the translatable
+content from the folks who knew how things work, translate it as best as I
+could, add in the comments to help the reviewers understand how I comprehended
+the text, filled in the necessary information for copyright and credits and sent
+them back to the coordinators.
+对于我来说，一切是这样开始的。让我首先写一点关于我自己的东西。当我被介绍到我的城市的地方Linux Users集团时
+，我当时在工作和为了硕士学位而学习之间游走。很快我成为了一些局域项目的骨干并且开始翻译（大部分的）桌面界面。
+我们任用一些有综合写作技巧和字体的自定义编辑。那个所提供的机器还没有足够成熟来在接口处展示零失误的脚本，但尽管如此，我们不断坚持翻译
+。我的焦点还是放在了我为我自己创造的工作流水线。我过去常常从知道事情怎么运转的人那里得到可翻译的内容，尽我最大努力去翻译它
+加入一些评论来帮助评论家理解我是如何理解这篇文章的，为版权和信誉填写必要的信息，并且把它们发送给协调员。
+
+\section*{How it was done}
+
+It was mostly a simple way of doing things. But most importantly it was
+\textit{my} independent way of doing things. I took my own time to schedule when
+I would work on the translations. These would then be reviewed and returned to
+me for changes. Again, I would schedule them for completion as per how I could
+squeeze out some time from all the studying and other work that I was doing.
+When I did get down to work, I would sit through 9-10 straight hours mostly into
+the wee hours of the morning, feeling a high of accomplishment until the next
+assignments came through.
+这是一个做事情很简单的方法。但是重要的是这是一个独立的方法来做事情。当我从事翻译工作时我花费自己很多时间来安排计划。这些将会被我复习并且
+给我更多机会。再一次，我为了每次完成任务计划安排时间，并且挤出一些时间来学习和一些我所做的一些工作。当我真的着手做工作，我会一直做
+9-10小时一直到凌晨，到下次任务来临之前心中有一种成就感。
+
+\section*{What mattered}
+
+What I did not know was that I played a significant part in the larger scheme of
+things. Namely, release schedules. So, when I completed my 2 cents of the task
+and sent them over, I did not factor in a situation where they could be rendered
+useless because they were too late for the current release and too early for the
+next release (which would invariably contain a lot of changes that would require
+a rework). Besides these, I was oblivious to the fact how it all mattered to the
+entire release process -- integration, packaging, interface testing, bug filing,
+resolution.
+我真正不知道的是我在更大的计划中扮演了一个重要的角色。也就是发布时间表。因此，当我完成我任务的两分时并且发送它们。我并没有代理可以被
+归还的情景如果不是因为他们对于当今的发布太晚或者对于下一次的发布太早（这些东西总是包含许多变化让我们不断返工）。除去这些，我忽视了这
+个事实，它关系到整个发布过程，集成，打包，接口测试，错误文件，分辨率
+
+\section*{How it made me grow up}
+
+All these changed drastically when I moved into a more professional role. So
+suddenly I was doing the same thing but in a more structured order. I learned
+that the cavalier road-rolling that I had been used to, was not scalable when
+one had to juggle through 2-3 release schedules. It had to be meticulously
+planned to map with the project roadmaps. While working on translating a desktop
+interface, one had to check what the translation schedule was for the main
+project. The projected date to start working would be right after when all the
+original interface messages had been frozen. Translators could then work
+unhindered until the translation deadline, after which they would be marked as
+stable in the main repositories and eventually packages would be built. Along
+with these schedules, a couple of operating system
+distributions would align their schedules as well. So the translators had the
+additional responsibility of making sure that the pre-release versions of the
+operating system that would be carrying the desktop, went through with some bits
+of testing to ensure that the translations made sense on the interface and did
+not contain errors.
+
+这一切都在我变为更专业人士的时候突然改变了。所以突然间，我以更结构化的形式继续做一样的事。我认识到我曾经习惯的信以为是的轨道
+，在面对2-3个发行时间表的时候，是不可伸展的。需要精细的计划与项目路线图吻合。在翻译一个桌面界面时，我们必需检查主要项目的翻译时间表。
+计划开始工作的时间将紧随所有原有界面的信息确定以后进行。翻译员便可以无阻的在截止日期之前完成翻译。之后这些将在主要上游库中设为稳定状态，
+并且建立最终程序包。同这些时间表一道，一些操作系统的发行版也会将他们的时间表与之吻合。所以翻译者也有额外责任来确保提前发布的支持桌面的
+操作系统版本，在进行过一些测试之后，确保所翻译的在界面上合理，并且没有错误。
