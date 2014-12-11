@@ -94,6 +94,20 @@ needs to run on different architectures, 64-bit processors caused problems when
 they became widely available, these days it is ARM which is defeating coders’
 assumptions. Packagers need to deal with all of these issues, to give something
 to the users which reliably works.
+用户非常依赖于打包员。它需要快,为了拥有那些
+希望最新和最好的特性的人们,它需要可靠,对于那些想要
+稳定性的人(每个人)。棘手的部分是,它涉及到使用
+别人的软件,还有别人的软件出现问无法工作。一旦
+软件开始出现超出自然的问题就是不可见的问题在
+作者自己的电脑.可能用不同的编译器版本进行编译,
+也许许可证不清楚以至于不能复制,也许吧
+版本不一致，以至于小更新可能不兼容,可能屏幕
+大小可能不同,桌面环境也能够影响它,有时
+必要的第三方库甚至没有释放。这段时间软件
+需要不同的体系结构上运行普及时64位处理器就会出现问题，
+这段时间正是ARM否定了程序员的
+假设。打包员需要处理所有这些问题,付出一些东西为了
+让用户得到可靠地工作。
 
 We have a policy in Ubuntu that packages with unit tests must have those tests
 enabled as part of the package build process. Very often they fail and we get
@@ -110,6 +124,20 @@ to be fixed, then those fixes need testing. So there might not be much coding
 involved but there is a lot of work to get the software from being 95\% to being
 100\% ready, that 5\% is the hardest part, a slow and delicate process needing
 careful attention all the way.
+我们有一个政策在Ubuntu包必须有这些单元测试使包
+成为构建过程的一部分。他们经常失败,从而我们从软件作者
+得到启示就是测试只供自己使用。
+不幸的是你自己无法用软件足够可靠地去测试它,
+它也需要别人来测试它。一个测试是不够的,它需要一个多层次的
+的方法。最初程序的单元测试应该从最初位置
+开始,然后打包员测它在他或她自己的电脑上,同样它需要
+其他人也来测试它。自动安装和升级测试可以仿照
+云计算服务。投入开发
+分发存档获得更广泛的测试,最后几个月后
+公布给大众。在每个阶段那些能够或者可能被发现的需要被修复的问题
+然而那些补丁同样需要测试。所以可能不要太多编码需要的是许多的工作
+为了让软件从95%到100%的完成，然而5%是最难的部分,一个缓慢而复杂的过程需要
+一直小心。
 
 You can not do packaging without good communication with your upstream
 developers. When bugs happen it is vital to be able to find the right person to
